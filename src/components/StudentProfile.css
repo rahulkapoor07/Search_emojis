@@ -1,0 +1,85 @@
+body{
+  position: relative;
+}
+
+.StudentProfile{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.image img{
+    width: 200%;
+    height: 200%;
+    border-radius: 70%;
+    border: 1px solid lightgray;
+}
+  .details{
+    margin-left: 5rem;
+}
+  
+  .details h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+  
+  .details small{
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+  
+  .hr{
+    position: absolute;
+    border-top: 0.5px solid lightgrey;
+    width: 200%;
+    color: lightgrey;
+}
+
+  .btn{
+    position: absolute;
+    top : 15px;
+    right : 10px;
+    cursor: pointer;
+}
+
+  .grades{
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.btn button{
+  background-color: white;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+
+.added-grades{
+ margin-top: -90px;
+}
+
+.inputField{
+  width: 100%;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.tags-input{
+  margin-top: 10px;
+}
+
+.tags-input span{
+  background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
